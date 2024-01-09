@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 138,
+    "height" : 112
+  }, {
+    "width" : 276,
+    "height" : 223
+  }, {
+    "width" : 551,
+    "height" : 445
+  }, {
+    "width" : 1101,
+    "height" : 890
+  }, {
+    "width" : 2202,
+    "height" : 1779
+  }, {
+    "width" : 4403,
+    "height" : 3557
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 4403,
+  "@id" : "https://Maxime-Griveau.github.io/IIIF_Project/images/faceb",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 3557
+}
