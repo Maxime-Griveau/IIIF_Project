@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 4403,
+    "id" : "https://Maxime-Griveau.github.io/IIIF_Project/images/faceb/canvas/",
+    "label" : {
+      "none" : [ "faceb" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://Maxime-Griveau.github.io/IIIF_Project/images/faceb/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://Maxime-Griveau.github.io/IIIF_Project/images/faceb/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 138,
+              "height" : 112
+            }, {
+              "width" : 276,
+              "height" : 223
+            }, {
+              "width" : 551,
+              "height" : 445
+            }, {
+              "width" : 1101,
+              "height" : 890
+            }, {
+              "width" : 2202,
+              "height" : 1779
+            }, {
+              "width" : 4403,
+              "height" : 3557
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 4403,
+            "@id" : "https://Maxime-Griveau.github.io/IIIF_Project/images/faceb",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 3557
+          } ],
+          "format" : "image/jpeg",
+          "width" : 4403,
+          "id" : "https://Maxime-Griveau.github.io/IIIF_Project/images/faceb/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 3557
+        },
+        "target" : "https://Maxime-Griveau.github.io/IIIF_Project/images/faceb/canvas/"
+      } ]
+    } ],
+    "height" : 3557
+  }, {
     "width" : 5301,
     "id" : "https://Maxime-Griveau.github.io/IIIF_Project/images/facea/canvas/",
     "label" : {
