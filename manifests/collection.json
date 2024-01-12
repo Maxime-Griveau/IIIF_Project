@@ -5,17 +5,5 @@
   },
   "type" : "Collection",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "@type" : "sc:Manifest",
-    "@id" : "https://Maxime-Griveau.github.io/IIIF_Project/manifests/manifestnewv2.json",
-    "label" : "Manifest, François Vase IIIF"
-  }, {
-    "@type" : "sc:Manifest",
-    "@id" : "https://Maxime-Griveau.github.io/IIIF_Project/manifests/manifestnewv3.json",
-    "label" : "Manifest, François Vase IIIF"
-  }, {
-    "@type" : "sc:Manifest",
-    "@id" : "https://Maxime-Griveau.github.io/IIIF_Project/manifests/manifestnewv4.json",
-    "label" : "Manifest, François Vase IIIF"
-  } ]
+  "items" : [ ]
 }
