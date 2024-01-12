@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://Maxime-Griveau.github.io/IIIF_Project/manifests/manifestnewv2.json",
     "label" : "Manifest, François Vase IIIF"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Maxime-Griveau.github.io/IIIF_Project/manifests/manifestnewv3.json",
+    "label" : "Manifest, François Vase IIIF"
   } ]
 }
