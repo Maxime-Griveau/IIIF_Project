@@ -265,7 +265,7 @@
             ]
         },
         {
-            "@id": "http://example.org/range/faces",
+            "@id": "http://example.org/range/vasefrancois",
             "@type": "sc:Range",
             "label": "Faces",
             "ranges": [
@@ -277,7 +277,7 @@
             ]
         },
         {
-            "@id": "http://example.org/range/vasefrancois",
+            "@id": "http://example.org/range/test",
             "@type": "sc:Range",
             "label": "Vase François",
             "canvases": [
