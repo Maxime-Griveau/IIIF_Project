@@ -242,7 +242,7 @@
             ]
         }
     ],
-    "structures": [
+   "structures": [
         {
             "@id": "http://example.org/range/root",
             "@type": "sc:Range",
@@ -257,11 +257,7 @@
             "@type": "sc:Range",
             "label": "Table of Contents",
             "ranges": [
-                {
-                    "@id": "http://example.org/range/vasefrancois",
-                    "@type": "sc:Range",
-                    "label": "Vase François"
-                }
+                "http://example.org/range/vasefrancois"
             ]
         },
         {
@@ -278,5 +274,4 @@
             ]
         }
     ]
-    
 }
