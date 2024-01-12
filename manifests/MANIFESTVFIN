@@ -38,6 +38,10 @@
                     "@value": "By Alessandro François"
                 }
             ]
+        },
+        {
+            "label" : "description",
+            "value" : "The Francois Vase is one of the famousest of its own, it is sometimes named 'Greek Bible' and for good reason. On its 66 cm height and 57 cm large it shows of a various number of scenes; from Peleus and Thetis mariage, to the hunt of Kalydon's wild board by Meleager. The vase is covered by an astonishing number of inscriptions (rare at that time), signed by both his painter and potter (also very rare). To illustrate the wide range of possible interpretation, we can say that three theses have been devoted to his interpretation"
         }
     ],
     "description": [
@@ -252,23 +256,21 @@
             "@type": "sc:Range",
             "label": "Table of Contents",
             "ranges": [
-                "http://example.org/range/intro",
-                "http://example.org/range/FrancoisVase"
+                "http://example.org/range/vasefrancois"
             ]
         },
         {
-            "@id": "http://example.org/range/Vase",
+            "@id": "http://example.org/range/vasefrancois",
             "@type": "sc:Range",
             "label": "Vase François",
             "canvases": [
                 "http://952b6962-8b8d-4e1f-8163-52ceb6508459",
                 "http://8b78c92a-0d6e-4e8e-858b-55c8371e3d4d",
-                "http://a1bda0ec-270d-4627-865a-331a94daf48f",
                 "http://5f678ee0-697d-4a3a-92f0-24d8fd554763",
+                "http://a1bda0ec-270d-4627-865a-331a94daf48f",
                 "http://33251eb8-1c7d-4035-88c1-aa3a03ee5595",
                 "http://9d3ea5ea-b918-4abe-b418-61f6b14fd112"
-                
             ]
         }
-    ]
+    ]    
 }
