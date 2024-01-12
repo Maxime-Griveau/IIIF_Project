@@ -267,22 +267,14 @@
         {
             "@id": "http://example.org/range/vasefrancois",
             "@type": "sc:Range",
-            "label": "Faces",
-            "ranges": [
-                {
-                    "@id": "http://example.org/range/test",
-                    "@type": "sc:Range",
-                    "label": "Vase François"
-                }
-            ]
-        },
-        {
-            "@id": "http://example.org/range/test",
-            "@type": "sc:Range",
             "label": "Vase François",
             "canvases": [
                 "http://952b6962-8b8d-4e1f-8163-52ceb6508459",
                 "http://8b78c92a-0d6e-4e8e-858b-55c8371e3d4d",
+                "http://5f678ee0-697d-4a3a-92f0-24d8fd554763",
+                "http://a1bda0ec-270d-4627-865a-331a94daf48f",
+                "http://33251eb8-1c7d-4035-88c1-aa3a03ee5595",
+                "http://9d3ea5ea-b918-4abe-b418-61f6b14fd112"
             ]
         }
     ]
