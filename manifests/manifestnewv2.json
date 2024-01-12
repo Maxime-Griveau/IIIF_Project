@@ -198,28 +198,38 @@
       "related" : ""
     } ]
   } ],
-  "structures" : [ {
-    "@id" : "http://example.org/iiif/book1/range/top",
-    "@type" : "sc:Range",
-    "label" : "Table of Content",
-    "viewingHint" : "top",
-    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
-  }, {
-    "@id" : "http://example.org/iiif/book1/range/intro",
-    "@type" : "sc:Range",
-    "label" : "Introduction",
-    "canvases" : [ {
-      "@id" : "http://952b6962-8b8d-4e1f-8163-52ceb6508459"
-    }, {
-      "@id" : "http://8b78c92a-0d6e-4e8e-858b-55c8371e3d4d"
-    }, {
-      "@id" : "http://a1bda0ec-270d-4627-865a-331a94daf48f"
-    }, {
-      "@id" : "http://33251eb8-1c7d-4035-88c1-aa3a03ee5595"
-    }, {
-      "@id" : "http://9d3ea5ea-b918-4abe-b418-61f6b14fd112"
-    }, {
-      "@id" : "http://5f678ee0-697d-4a3a-92f0-24d8fd554763"
-    } ]
-  } ]
+  "structures": [
+        {
+            "@id": "http://example.org/range/root",
+            "@type": "sc:Range",
+            "label": "This range is not shown",
+            "viewingHint": "top",
+            "ranges": [
+                "http://example.org/range/toc"
+            ]
+        },
+        {
+            "@id": "http://example.org/range/toc",
+            "@type": "sc:Range",
+            "label": "Table of Contents",
+            "ranges": [
+                "http://example.org/range/intro",
+                "http://example.org/range/FrancoisVase"
+            ]
+        },
+        
+        {
+            "@id": "http://example.org/range/Vase",
+            "@type": "sc:Range",
+            "label": "Vase François",
+            "canvases": [
+                "http://952b6962-8b8d-4e1f-8163-52ceb6508459",
+                "http://8b78c92a-0d6e-4e8e-858b-55c8371e3d4d",
+                "http://a1bda0ec-270d-4627-865a-331a94daf48f",
+                "http://33251eb8-1c7d-4035-88c1-aa3a03ee5595",
+                "http://9d3ea5ea-b918-4abe-b418-61f6b14fd112",
+                "http://5f678ee0-697d-4a3a-92f0-24d8fd554763"
+            ]
+        }
+    ]
 }
