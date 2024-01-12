@@ -241,7 +241,7 @@
             ]
         }
     ],
-    "structures": [
+   "structures": [
         {
             "@id": "http://example.org/range/root",
             "@type": "sc:Range",
@@ -272,5 +272,5 @@
                 "http://9d3ea5ea-b918-4abe-b418-61f6b14fd112"
             ]
         }
-    ]    
+    ]
 }
