@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 40,
+    "height" : 34
+  }, {
+    "width" : 79,
+    "height" : 68
+  }, {
+    "width" : 158,
+    "height" : 135
+  }, {
+    "width" : 316,
+    "height" : 270
+  }, {
+    "width" : 632,
+    "height" : 540
+  }, {
+    "width" : 1263,
+    "height" : 1080
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1263,
+  "@id" : "https://Maxime-Griveau.github.io/IIIF_Project/images/ansedroite1",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1080
+}
