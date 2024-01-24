@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://Maxime-Griveau.github.io/IIIF_Project/annotations/Manifestanotated.json" ],
+  "@id" : "https://Maxime-Griveau.github.io/IIIF_Project/annotations/collection.json",
+  "label" : "All annotations loaded in Maxime-Griveau/IIIF_Project project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
